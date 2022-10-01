@@ -91,12 +91,7 @@ a{
     padding-top: 10%;
 }
 
-.section-content{
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0px 50px;
-    padding-bottom: 10vh;
-}
+
 
 @media screen and (max-width: 768px){
     .menu-mobile{
