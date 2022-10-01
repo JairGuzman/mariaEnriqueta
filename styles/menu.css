@@ -1,0 +1,145 @@
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+
+.header{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 10vh;
+    grid-template-areas: 
+        "logo logo menu menu menu menu menu menu";
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+#header-logo{
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+}
+
+#header-logo img{
+    height: 50px;
+    width: 50px;
+}
+
+#header-logo p{
+    width: 120px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 20px;
+    margin-left: 10px;
+    color: #6A9BA6;
+}
+
+#header-menu{
+    grid-area: menu;
+    display: flex;
+    justify-content: end;
+    height: 25px;
+    gap: 50px;
+}
+
+#openMenu{
+    display: none;
+}
+
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #6D6D6D;
+    
+    
+}
+
+.actived{
+    border-bottom: 2px solid #1FAF92;
+}
+
+.menu-mobile{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-mobile-content{
+    
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    height: 80%;
+}
+
+#closeMenu{
+    font-size: 30px;
+    align-self: flex-end;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.section-content{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 50px;
+    padding-bottom: 10vh;
+}
+
+@media screen and (max-width: 768px){
+    .menu-mobile{
+        display: none;
+    }
+
+
+    #welcome-image{
+        justify-self: center;
+        margin-top: 50px;
+    }
+
+    header{
+        width: 100vw;
+        position: fixed;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        z-index: 100;
+    }
+
+
+    .header{
+        width: 80vw;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 100px;
+        grid-template-areas: 
+            "logo logo logo logo logo logo logo btn";
+        align-items: center;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    #openMenu{
+        grid-area: btn;
+        display: flex;
+        font-size: 2em;
+        justify-content: end;
+        z-index: 100;
+    }
+
+    #header-menu{
+        display: none;
+    }
+}
