@@ -62,14 +62,14 @@ p{
 .galeria{
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
+    grid-template-columns: repeat(auto-fit, 500px);
     gap: 25px;
     justify-content: center;
 }
 
 .galeria img{
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
     object-position: center;
 }
@@ -100,6 +100,21 @@ p{
         line-height: 71px;
         color: #1FAF92;
         text-align: center;
+    }
+
+    .galeria{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 250px);
+        gap: 25px;
+        justify-content: center;
+    }
+    
+    .galeria img{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
     }
 
 
