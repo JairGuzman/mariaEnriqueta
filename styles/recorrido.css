@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    
+}
+
+
+
+
+.hero{
+    height: 90vh;
+    background-image: url(../images/museo3.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.hero-info{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 150px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info h1{
+    color: #fff;
+    font-size: 5em;
+    text-align: center;
+}
+
+.section-content{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 150px;
+    padding-bottom: 10vh;
+}
+
+.title{
+    padding-top: 100px;
+    color: #000;
+    font-weight: 700;
+    font-size: 3.5em;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.habitaciones-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+    gap: 25px;
+    justify-content: center;
+}
+
+.item-grid{
+    box-shadow: 0px 9px 46px 8px rgba(87, 87, 87, 0.12);
+    border-radius: 5px;
+}
+
+.item-img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.item-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.item-footer p{
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.item-footer i{
+    font-size: 1.4em;
+}
+
+@media screen and (max-width: 1100px){
+    
+
+    .hero-info{
+        padding-top: 100px;
+    }
+
+    .section-content{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0px 50px;
+        padding-bottom: 10vh;
+
+    }
+
+    .title{
+
+        font-size: 2.5em;
+    }
+ 
+}
