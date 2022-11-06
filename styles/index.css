@@ -189,7 +189,7 @@ html{
 }
 
 .work-item img{
-    width: 40%;
+    width: 8em;
     object-fit: cover; /* Recorta la imagen sin deformarla */
     object-position: center;
 }
