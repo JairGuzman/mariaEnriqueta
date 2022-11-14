@@ -81,6 +81,15 @@
     font-size: 1.4em;
 }
 
+.mapa{
+    background: #3A3A3A;
+    color: #FFF;
+}
+
+.white{
+    color: #FFF;
+}
+
 @media screen and (max-width: 1100px){
     
 
