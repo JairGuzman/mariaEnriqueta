@@ -31,3 +31,12 @@ $(document).ready(function() {
       } 
   });  
 });
+
+
+$('#salaPrincipal').click(function(){
+  window.open("https://angelarmenta.com/proyectos/museo/recorrido/habitacion-2/");
+});
+
+$('.recepcion').click(function(){
+  window.open("https://angelarmenta.com/proyectos/museo/recorrido/habitacion-1/");
+});
