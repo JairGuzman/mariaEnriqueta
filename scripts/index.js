@@ -37,6 +37,29 @@ $('#salaPrincipal').click(function(){
   window.open("https://angelarmenta.com/proyectos/museo/recorrido/habitacion-2/");
 });
 
-$('.recepcion').click(function(){
+$('#recepcion').click(function(){
   window.open("https://angelarmenta.com/proyectos/museo/recorrido/habitacion-1/");
 });
+
+$('#comedor').click(function(){
+  window.open("https://angelarmenta.com/proyectos/museo/recorrido/habitacion-3/");
+});
+
+$('#cocina').click(function(){
+  window.open("https://angelarmenta.com/proyectos/museo/recorrido/habitacion-4/");
+});
+
+$('#patioCentral').click(function(){
+  window.open("https://angelarmenta.com/proyectos/museo/recorrido/habitacion-5/");
+});
+
+$('#patioTrasero').click(function(){
+  window.open("https://angelarmenta.com/proyectos/museo/recorrido/habitacion-6/");
+});
+
+$('#galeriaArte').click(function(){
+  window.open("https://angelarmenta.com/proyectos/museo/recorrido/habitacion-7/");
+});
+
+
+
