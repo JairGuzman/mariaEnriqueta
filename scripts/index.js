@@ -20,8 +20,6 @@ if (mediaQuery.matches) {
   
 }};
 
-
-
 $(document).ready(function() {
   $('#autoWidth').lightSlider({
       autoWidth:true,
@@ -31,7 +29,7 @@ $(document).ready(function() {
       } 
   });  
 });
-
+  
 
 $('#salaPrincipal').click(function(){
   window.open("https://angelarmenta.com/proyectos/museo/recorrido/habitacion-2/");
