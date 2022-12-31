@@ -220,5 +220,10 @@ footer{
     #map{
         margin-top: 50px;
     }
+
+    .section-content{
+
+        padding: 0px 50px;
+    }
     
 }
