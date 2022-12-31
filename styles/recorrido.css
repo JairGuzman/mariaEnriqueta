@@ -54,13 +54,16 @@
 .habitaciones-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
-    gap: 25px;
+    gap: 40px 25px;
     justify-content: center;
 }
 
 .item-grid{
-    box-shadow: 0px 9px 46px 8px rgba(87, 87, 87, 0.12);
     border-radius: 5px;
+}
+
+.item-grid:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
 }
 
 .item-img{
